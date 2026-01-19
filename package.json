@@ -1,0 +1,20 @@
+{
+  "name": "bookshelf-api-project",
+  "version": "1.0.0",
+  "description": "Dicoding Bookshelf API Project",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "start-dev": "nodemon src/server.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.0.0",
+    "nanoid": "^3.3.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^3.0.0"
+  }
+}
